@@ -69,12 +69,14 @@ JWT_SECRET=your_jwt_secret_key
 CLIENT_URL=http://localhost:3000
 🧪 Getting Started Locally
 1. Clone the repository
+
 bash
 Copy
 Edit
 git clone https://github.com/Soumyaatanna/virtuoCall.git
 cd virtuoCall
-2. Install dependencies
+3. Install dependencies
+
 bash
 Copy
 Edit
@@ -83,15 +85,15 @@ cd backend
 npm install
 
 # Install frontend dependencies
+
 cd ../frontend
 npm install
+
 3. Set up .env in backend/
+   
 Fill in your MongoDB URI and JWT secret as described above.
 
-4. Run the development servers
-bash
-Copy
-Edit
+
 # In one terminal (backend)
 cd backend
 npm start
@@ -100,7 +102,8 @@ npm start
 cd frontend
 npm start
 📸 Screenshots
-You can add screenshots in the screenshots/ folder and reference them here:
+![image](https://github.com/user-attachments/assets/ee984026-af4f-4786-9f2b-485f21aa54b5)
+
 
 
 ✨ Future Improvements
@@ -124,7 +127,6 @@ This project is licensed under the MIT License.
 
 Soumya Tanna
 
-Let me know if you'd like to auto-generate the badges or include deployment instructions for Vercel/Render.
 
 
 
