@@ -22,8 +22,8 @@ app.use(express.urlencoded({ limit: "40kb", extended: true }));
 app.use("/api/v1/users", userRoutes);
 
 const start = async () => {
-    app.set("mongo_user")
-    const connectionDb = await mongoose.connect("mongodb+srv://soumyatanna103:souvirtuoCall@cluster0.gqxewf4.mongodb.net/")
+    app.set("mongo_user") 
+    const connectionDb = await  mongoose.connect("mongodb+srv://soumyatanna103:souvirtuoCall@cluster0.gqxewf4.mongodb.net/")
 
     console.log(`MONGO Connected DB HOst: ${connectionDb.connection.host}`)
     server.listen(app.get("port"), () => {
