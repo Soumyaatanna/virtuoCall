@@ -1,7 +1,7 @@
 # VirtuoCall 🎥
 
 VirtuoCall is a real-time video conferencing web application built using **React**, **Socket.IO**, **WebRTC**, and **Material UI**. It enables users to create and join meetings using unique codes, send messages during calls, and maintain a history of their meetings.
-##  Live Demo : https://virtuo-call-nlyztfzcg-soumyas-projects-074ffe94.vercel.app/
+##  Live Demo : https://virtuo-call.vercel.app/
 ---
 
 ## 🚀 Features
